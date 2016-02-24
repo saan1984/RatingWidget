@@ -1,0 +1,40 @@
+.card{
+    border: 1px solid black;
+    background: #fff;
+    padding: 0px 10px 20px 10px;
+    width:550px;
+    h1,h1.card-title{
+        text-align:center;
+        font-weight:100;
+    }
+    h5.card-subtitle{
+        text-align:center;
+        color:#999;
+    }
+    .rating-container{
+        display:flex;
+        justify-content: center;
+        padding: 20px;
+        border: 2px solid #eee;
+        border-left: none;
+        border-right: none;
+        margin: 40px 130px;
+    }
+    .rating-message{
+        display:none;
+        text-align: center;
+    }
+    .good-text{
+        color:green;
+        font-weight:100;
+    }
+    .feedback-action{
+        text-align:center;
+        button{
+            padding:15px;
+            margin:10px;
+            width:226px;
+            cursor:pointer;
+        }
+    }
+}

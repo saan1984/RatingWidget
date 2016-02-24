@@ -1,0 +1,34 @@
+.card {
+  border: 1px solid black;
+  background: #fff;
+  padding: 0px 10px 20px 10px;
+  width: 550px; }
+  .card h1, .card h1.card-title {
+    text-align: center;
+    font-weight: 100; }
+  .card h5.card-subtitle {
+    text-align: center;
+    color: #999; }
+  .card .rating-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #eee;
+    border-left: none;
+    border-right: none;
+    margin: 40px 130px; }
+  .card .rating-message {
+    display: none;
+    text-align: center; }
+  .card .good-text {
+    color: green;
+    font-weight: 100; }
+  .card .feedback-action {
+    text-align: center; }
+    .card .feedback-action button {
+      padding: 15px;
+      margin: 10px;
+      width: 226px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=card.css.map */

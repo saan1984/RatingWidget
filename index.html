@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cards</title>
+    <link href="jquery.rating.css" rel="stylesheet">
+    <link href="card.css" rel="stylesheet">
+</head>
+<body>
+ <div class="card">
+     <h1 class="card-title">Thank you for choosing Lacerte</h1>
+     <h5 class="card-subtitle">Rate Your experience</h5>
+     <form name='ratingForm' id="ratingForm" class="rating-container">
+         <input name="ratingInput" class="star" onchange="handleRating()" type="radio"  value="1" ">
+         <input name="ratingInput" class="star" onchange="handleRating()" type="radio"  value="2" ">
+         <input name="ratingInput"  class="star" onchange="handleRating()" type="radio"  value="3" ">
+         <input name="ratingInput"  class="star" onchange="handleRating()" type="radio"  value="4" ">
+         <input name="ratingInput"  class="star" onchange="handleRating()" type="radio"  value="5" ">
+     </form>
+     <div class="rating-message good-rating-message">
+         <h2 class="good-text">We love that. Thank you.</h2>
+         <img src="thanks.png" alt="Good feedback">
+     </div>
+     <div class="rating-message bad-rating-message">
+         <h2 class="emotion">Oops!</h2>
+         <h5>sorry to hear that.Kindly Let us know what went wrong.</h5>
+         <div class="feedback-action">
+             <button class='link-action' onclick="navigate()">It was too slow then expected</button>
+             <button class='link-action'  onclick="navigate()">There were error on the way</button>
+             <button class='link-action' onclick="navigate()">Installation was confusing</button>
+             <button class='link-action' onclick="navigate()">Something else happened</button>
+         </div>
+     </div>
+ </div>
+
+ <script src="jquery-1.10.2.min.js"></script>
+ <script src="jquery.rating.pack.js"></script>
+ <script src="card.js"></script>
+</body>
+</html>
